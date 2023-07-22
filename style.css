@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 17, 21);
+}
+
+.bloc1 {
+  height: 810px;
+  background-image: url(https://images.unsplash.com/photo-1655718354928-6d805c6a28aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+}
+.A1 {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 250px;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+.A2 {
+  font-size: 60px;
+}
+.p1 {
+  background-color: rgba(128, 128, 128, 0.473);
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 410px;
+  border-radius: 25px;
+  font-size: small;
+}
+.b1 {
+  background-color: blue;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  border: none;
+}
+.bloc2 {
+  height: 500px;
+  width: 1100px;
+  background-color: rgb(19, 22, 27);
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  left: 150px;
+  margin: 50px;
+  font-size: medium;
+}
+.p2 {
+  font-size: x-small;
+  color: rgb(97, 106, 125);
+}
+.p3 {
+  color: rgb(97, 106, 125);
+}
+.icon {
+  position: relative;
+  left: -545px;
+  top: -30px;
+  font-size: 90px;
+}
+.bloc3 {
+  color: white;
+  text-align: center;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.blog-box {
+  width: 350px;
+  background-color: rgb(24, 27, 32);
+  border: 1px solid rgb(24, 27, 32);
+  margin: 20px;
+  border-radius: 20px;
+}
+.blog-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.blog-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.blog-text {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 30px;
+}
+.blog-text h3 {
+  color: white;
+}
+.blog-container-L {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px 170px;
+  flex-wrap: wrap;
+}
+.blog-box-L {
+  width: 350px;
+  background-color: rgb(24, 27, 32);
+  border: 1px solid rgb(24, 27, 32);
+  margin: 20px;
+  border-radius: 20px;
+  padding: 0px;
+  position: absolute;
+  top: 2670px;
+  left: 565px;
+}
